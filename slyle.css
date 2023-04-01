@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#container {
+  align-items: flex-start;
+}
+.square#one {
+  align-self: center;
+}
+// Only this square will be centered.
