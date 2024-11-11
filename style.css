@@ -1,0 +1,74 @@
+*{
+  padding: 0%; gap: 0;
+}
+body{
+  font-family:Roboto;
+  color: black;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+  box-sizing:border-box;
+  max-width: 1440px;
+  gap: 0 auto;
+}
+.menu{
+  display: flex;
+  list-style-type: none;
+}
+.menu li{
+  margin-left: 45px;
+}
+.menu li a{
+  color:black; text-decoration:none;
+  display: flex;
+  gap: 284px;
+  }
+  .menu li a img{
+    display: flex
+    align-items:flex-start;
+    justify-self:right;
+    gap:25px;
+  }  
+  .main{
+    display: flex;
+    align-items: flex-start;
+  }
+  .main li strong{
+    display: flex;
+    align-items: center;
+    color: black;
+    width: 538px;
+    height: 111px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+  }
+.main li {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color:#283136 ;
+width: 400px;
+height: 49px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.main img{
+  display: flex;
+  background: url(nerds-index-slide1.png);
+  width: 760px;
+height: 431px;
+left: 537px;
+position: absolute;
+
+}
