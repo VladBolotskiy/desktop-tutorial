@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Front-end Shop</h1>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Front-end Shop!</h2>
+                <p>Your one-stop shop for all front-end development needs.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h3>Our Products</h3>
+                <div class="product-list">
+                    <div class="product">
+                        <h4>HTML Guide</h4>
+                        <p>Learn HTML basics and advanced features.</p>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <h4>CSS Toolkit</h4>
+                        <p>All tools for styling your websites beautifully.</p>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <h4>JavaScript Mastery</h4>
+                        <p>Master JavaScript and build dynamic sites.</p>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Front-end Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
